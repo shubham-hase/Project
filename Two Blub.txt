@@ -1,0 +1,36 @@
+// HTML JS code to light up bulb
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<img id="myImage2" src="pic_bulboff.gif" style="right:20px">
+
+<button onclick="on()">ON</button>
+<button onclick="off()">OFF</button>
+
+
+<script>
+function on(){
+let img1 = document.getElementById('myImage').src='pic_bulbon.gif';
+let img2= document.getElementById('myImage2').src='pic_bulboff.gif';
+}
+
+function off(){
+let img1=document.getElementById('myImage').src='pic_bulboff.gif';
+let img2=document.getElementById('myImage2').src='pic_bulbon.gif';
+}
+</script>
+
+
+</body>
+</html>

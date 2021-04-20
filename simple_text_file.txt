@@ -1,0 +1,9 @@
+1. git init
+2. git remote add origin <gitlink>
+3. git remote -v
+4. git add
+5. git commit -m <message>
+6. git push origin master
+
+
+git help
